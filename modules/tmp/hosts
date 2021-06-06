@@ -1,0 +1,27 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+#10.96.81.25	exploredata-t.oit.unlv.edu
+
+#SAS test
+#it-sasbi-dbt-01.sea.oit.unlv.edu
+#it-sasbi-apt-01.sea.oit.unlv.edu
+#it-sasbi-wst-01.sea.oit.unlv.edu
+#it-sasva-apt-01.sea.oit.unlv.edu
+#it-sasva-apt-02.sea.oit.unlv.edu
+#it-sasva-apt-03.sea.oit.unlv.edu
+#it-sasva-apt-04.sea.oit.unlv.edu
+
+#mobile
+#es-cldfs-wsd-02.ess.unlv.edu
+#es-cldfs-wsp-02.ess.unlv.edu
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
